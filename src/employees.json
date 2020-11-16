@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Bill",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bill_Nye_2017.jpg/1280px-Bill_Nye_2017.jpg",
+      "job": "Science Guy",
+      "department": "IT"
+    },
+    {
+      "id": 2,
+      "name": "Sue",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Susan_Boyle_Nov_2009.jpg",
+      "job": "Songstress",
+      "department": "HR"
+    },
+    {
+      "id": 3,
+      "name": "Jim",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Jim-halpert.jpg",
+      "job": "Office Guy",
+      "department": "Desks"
+    }
+  ]
