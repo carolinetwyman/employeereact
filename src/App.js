@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import Wrapper from './components/Wrapper';
 import employees from "./employees.json";
+import Input from "./components/Input";
 
 class App extends Component {
   state = {
@@ -13,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Input />
         <Header>Employees</Header>
         {this.state.employees.map(employee => (
           <Body
