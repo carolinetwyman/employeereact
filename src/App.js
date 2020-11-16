@@ -13,6 +13,7 @@ class App extends Component {
 
   render() {
     return (
+      <div className="container">
       <Wrapper>
         <Input />
         <Header>Employees</Header>
@@ -28,6 +29,7 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      </div>
     );
   }
 }
