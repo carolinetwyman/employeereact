@@ -1,8 +1,14 @@
 import React from "react";
-import SearchResultContainer from "./components/SearchResultContainer";
+import EmployeeSection from "./components/EmployeeSection";
+import Nav from "./components/Nav"
 
 function App() {
-  return <SearchResultContainer />;
+  return( <div>
+    <Nav />
+  <EmployeeSection />
+  </div>
+  )
 }
+  
 
 export default App;
